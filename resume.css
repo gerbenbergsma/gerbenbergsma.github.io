@@ -1,0 +1,29 @@
+.info-entry {
+  display: flex;
+  padding: 0.1em 0px;
+}
+
+.info-title {
+  font-weight: bold;
+  width: 10rem;
+  text-align: left;
+}
+
+.info-value {
+  text-align: left;
+}
+
+.job-entry {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-title {
+  font-weight: bold;
+  padding: 0.2em 0;
+}
+
+.education-description > p {
+  padding: 0;
+  margin: 0;
+}
