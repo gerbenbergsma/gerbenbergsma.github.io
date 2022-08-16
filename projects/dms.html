@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="projects.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMS</title>
+</head>
+<body>
+    <main>
+        <div class="project">
+            <h1 class="project-title">Declaration Management System</h1>
+            <p class="project-description">
+                My second year at Boltrics was spent developing the new Declaration Management System. The declaration management system provides a way to view and create customs declaration documents and a way to communicate with customs. The new declaration management system (DMS) came as a replacement for the current one (AGS). Because the definitions of the messages changed significantly, and because the old AGS code had become spaghetti, the decision was made to create a new module from scratch.
+            </p>
+            <p>
+                The new declaration management system (DMS) is based on the Message Implementation Guide provided by customs. In this guide you can find which elements have to be present in the declaration messages sent to customs. Per element it is given whether it is always required, optional, not used or whether it depends on some other conditions. Each of these conditions were provided in another guide.
+            </p>
+            <p>
+                One of the main objectives of the new declaration management system was to provide the user with enough information to be able to solve problems with their declaration themselves. The old system did not provide much information on what went wrong, if any. Because of this, all validations provided by customs were implemented and their results were logged such that it became visible what was wrong.
+            </p>
+            <p>
+                Another focuspoint was integration with the Warehouse Management System and Transport Management System. It was possible to create customs documents based on those documents, so this had to be possible in the new declaration management system as well. Based on the factory design pattern, a new way of creating DMS documents was accomplished.
+            </p>
+        </div>
+        <div class="tools">
+            <h4 class="tools-title">Tools</h3>
+            <ul class="tool-tags">
+                <li>AL Language</li>
+                <li>Dynamics 365 Business Central</li>
+                <li>Visual Studio Code</li>
+                <li>Git</li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

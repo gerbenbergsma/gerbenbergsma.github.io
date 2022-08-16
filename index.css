@@ -1,0 +1,37 @@
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+div[class*="-title"] {
+  font-weight: bold;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  padding-left: 50%;
+  background-color: #214f4b;
+}
+
+.nav-bar ul li {
+  float: left;
+}
+
+.nav-li,
+.nav-li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 0.4em 1em;
+}
+
+.nav-li:hover {
+  background-color: #64403E;
+}

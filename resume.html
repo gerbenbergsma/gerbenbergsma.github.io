@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="resume.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
 </head>
 <body>
-    <main>
+    <main id="root">
+        <nav>
+            <div class="nav-bar">
+                <ul>
+                    <li class="nav-li"><a href="index.html">Home</a></li>
+                    <li class="nav-li"><a href="resume.html">About me</a></li>
+                    <li class="nav-li"><a href="projects.html">Projects</a></li>
+                    <li class="nav-li"><a href="contact.html">Contact</a></li>
+                    <li class="nav-li"><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
         <section id="personal-information">
             <h3>Personal Information</h3>
             <div class="info-entry">
@@ -24,7 +39,7 @@
                     Linkedin
                 </div>
                 <div class="info-value">
-                    gerben-bergsma98
+                    <a href="https://www.linkedin.com/in/gerben-bergsma98/">gerben-bergsma98</a>
                 </div>
             </div>
             <div class="info-entry">
@@ -59,7 +74,7 @@
                     Junior Dynamics 365 Business Central Developer
                 </div>
                 <div class="job-employer">
-                    Boltrics
+                    <a href="https://www.boltrics.com">Boltrics</a>
                 </div>
                 <div class="job-location">
                     Ede
@@ -70,19 +85,20 @@
                 <div class="job-description">
                     Junior Developer in the R&D team. Work focus lies on developing & maintaining large parts of the overall 3PL Dynamics application.
                     <li>
-                        Created API Extension module to allow customers to connect with their data for data analysis.
+                        Created API Extension module to allow customers to connect with their data for data analysis. <a href="./projects/boltrics_api.html">More Information</a>
                     </li>
                     <li>
                         Created Customs Message Management System (DMS) for integration with Dutch Customs.
                     </li>
                 </div>
-            </div>            
+            </div>     
+            <hr>       
             <div class="job-entry">
                 <div class="job-title">
                     Graduate Simulation Intern
                 </div>
                 <div class="job-employer">
-                    TBA
+                    <a href="https://tba.group/en">TBA Group</a>
                 </div>
                 <div class="job-location">
                     Delft
@@ -122,6 +138,7 @@
                     </p>
                 </div>
             </div>
+            <hr>
             <div class="education-entry">
                 <div class="education-title">
                     Bsc. Econometrics & Operations Research
@@ -142,8 +159,8 @@
                 </div>
             </div>
         </section>
-        <h3>Skills</h3>
         <section id="skills">
+            <h3>Skills</h3>
             <li>
                 AL
             </li>
